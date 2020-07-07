@@ -3,28 +3,64 @@
 <head>
   
     <title>hello coursera!</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+     
+        
+
+      
+      
+
+        a{
+         background-color: green;
+         text-decoration: none;
+         color:black;
+         }
+
+        a:hover, a:active{
+            background-color:red;
+            color:purple;
+            cursor:pointer;
+        }
+        div li:nth-child(2){
+            font-size: 24px;
+        }
+        section li:nth-child(odd){
+            background-color: grey;
+        }
+        section li:nth-child(2):hover{
+            background-color: red;
+            color:white;
+            cursor:pointer;
+            
+        }
+
+
+    </style>
 </head>
 <body>
     <h1>ordered list &lt; &amp; &gt; &copy; lina</h1>
     <div>
     shopping list
-    <ol>
-      <li>milk</li>
-      <li>tomato</li>
-      <li>cookies
-      <ol>
-        <li>cholcolate</li>
-        <li>sugar</li>
-
-      </ol></li>
-      <li>pepsi</li>
-
-
-    </ol>
+    <ul>
+      <li><a href="#section1">#section1</a></li>
+      <li><a href="index2.html" title="second page" target="_blank">
+        index2
+     </a></li>
+       
+    </ul>
  </div>
- <p>
-     kmdxjhbchbfvhvfvvffhdjhdygueghuhugyuyugyguygyyggygyuuyuvroijdcjiosjhdhidhh ay&nbsp;haga&nbsp;laz2a
- </p>
+ <section id="section1">
+     <h2>section1</h2>
+    <ul>
+      <li style="text-align:center;background-color: yellow;">item1</li>
+      <li onclick="alert('just a test')">item2</li>
+      <li>item3</li>
+    </ul>
+
+     </section>
+ 
+
 
 </body>
 </html>

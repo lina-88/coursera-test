@@ -1,7 +1,74 @@
 h1{
-    color:blue;
-    background-color: yellow;
+    color:black;
+    font-weight:bold ;
     font-size:36px;
-    text-align: center;
+    margin-bottom:50px ;
 
  }
+ *{
+    box-sizing:border-box ;
+
+ }
+ 
+ body{
+     background-color:grey ;
+     margin:0;
+ }
+  .box{
+     background-color:rgb(0, 255, 157);
+     padding:10px;
+     border:5px solid black;
+     color:black;
+     width:200px;
+     height:200px;
+     margin-top:30px;
+     margin-bottom: 30px;
+     
+     font-family:Arial, Helvetica,serif;
+     font-style: italic;
+    font-weight:bold;
+    font-size: 130%;
+     overflow: auto;
+    
+    text-transform:capitalize ;
+ }
+ .content{
+   background-color:blue;
+   width:150px;
+   height:150px;
+   overflow: auto;
+    
+
+ }
+ /*div.divclass p{
+     color:green;
+ }*/
+  a{
+     color:blue;
+     font-size:30px ;
+     font-style: italic;
+     background-color: white;
+     
+     
+     border:blue 3px solid;
+
+ }
+ a:hover{
+   cursor: pointer;
+
+}
+img{
+ margin-top: 30px;
+
+
+}
+#backgroundimage{
+  width:500px;
+  height:500px;
+  font-size:24px;
+  margin-top:100px;
+  background-color:blue;
+  background-image:url("https://lh3.googleusercontent.com/s6x-GsfhuK4E3vjfDw3yDVgkNPHiRrlof-niijMqyoTNGaJraKsQO_SlcEXzViR14b4");
+  background-repeat:no-repeat ;
+  background-position: bottom right;
+}

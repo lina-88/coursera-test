@@ -7,7 +7,7 @@
         *{
             box-sizing: border-box;
         }
-      div{
+      #divbox{
    width: 50% ;
     height:500px; 
     background-color: aqua;
@@ -38,8 +38,16 @@
       #p2{
       
       background-color:rgb(128, 0, 32);
+     
       
   }
+  #p3{
+      
+      background-color:rgb(68, 128, 0);
+     
+      
+  }
+
     @media (min-width:1200px){
         #p1{
             background-color: rgb(255, 192, 203);
@@ -49,11 +57,11 @@
     </style>
 </head>
 <body>
-    <div>
+    <div id="divbox">
         <h1>float</h1>
-        <p id="p1"></p>
-        <p id="p2"></p>
-
+        <div><p id="p1"></p></div>
+        <div><p id="p2"></p></div>
+        <div><p id="p3"></p></div>
     </div>
 
 

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive design</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+       .row{
+           width:100%;
+           }
+       @media(min-width:1200px){
+           .col-lg-3{
+               float:left;
+               border:1px green solid;
+               width:25%;
+           }
+       }
+       @media(min-width:950px) and (max-width:1199px){
+           .col-md-6{
+               float:left;
+               border:1px green solid;
+               width:50%;
+           }
+       }
+       p{
+           width:90%;
+           margin-left: auto;
+           margin-right: auto;
+           background-color: rgb(255, 8, 0);
+           height:150px;
+       }
+
+
+    </style>
+</head>
+<body>
+<h1 style="font-size:24px ; font-weight:bold ;">
+    responsive layout
+</h1>
+<div class="row">
+    <div class="col-lg-3 col-md-6"><p>item1</p></div>
+    <div class="col-lg-3 col-md-6"><p>item2</p></div>
+    <div class="col-lg-3 col-md-6"><p>item3</p></div>
+    <div class="col-lg-3 col-md-6"><p>item4</p></div>
+    <div class="col-lg-3 col-md-6"><p>item5</p></div>
+    <div class="col-lg-3 col-md-6"><p>item6</p></div>
+    <div class="col-lg-3 col-md-6"><p>item7</p></div>
+    <div class="col-lg-3 col-md-6"><p>item8</p></div>
+</div>
+
+
+
+
+
+
+    
+</body>
+</html>
